@@ -28,7 +28,7 @@ details()
 
 
 # Parameters/variables an arguments
-def patient(name, gender, age,  marriageStatus):
+def patient(name, gender, age, marriageStatus):
     print(name, gender, age, marriageStatus)
 
 
@@ -45,6 +45,7 @@ multiply(9, 18)
 multiply(18, 40)
 multiply(10, 35)
 
+
 # Create a user-defined fuctions
 # Called employees. Display details of
 # five employees using the
@@ -53,8 +54,9 @@ multiply(10, 35)
 def employees(fullname, age, position, salary):
     print(fullname, age, position, salary)
 
-employees("Mark Mwongoni","31", "Secretary", "30,000" )
-employees("Judy Wamocii","51", "Supervisor", "100,000" )
-employees("Joseph Mbugua","41", "Manager", "130,000" )
-employees("Antony Kimani","26", "Accountant", "60,000" )
-employees("Caroline Mutuku","37", "Chef", "90,000" )
+
+employees("Mark Mwongoni", "31", "Secretary", "30,000")
+employees("Judy Wamocii", "51", "Supervisor", "100,000")
+employees("Joseph Mbugua", "41", "Manager", "130,000")
+employees("Antony Kimani", "26", "Accountant", "60,000")
+employees("Caroline Mutuku", "37", "Chef", "90,000")
